@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/validate-email.js"></script>
+    <title>Home | Illinois</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <div>
+                <img id="illinois-logo" src="images/illinois-logo.png" alt="illinois state flag">
+                <h1 class="default-padding-bottom">Illinois</h1>
+            </div>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="cities/springfield.html">Springfield</a></li>
+                <li><a href="cities/chicago.html">Chicago</a></li>
+                <li><a href="cities/kirkland.html">Kirkland</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <img id="illinois-img" src="images/illinois.jpg" alt="illinois highway">
+            <cite>formulanone from Huntsville, United States,&nbsp;<a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, via Wikimedia Commons</cite>
+            <h2>Illinois</h2>
+            <p class="default-padding-bottom">Illinois is a state in the United States of America. The following are its most important cities:</p>
+            <ol>
+                <li><a href="cities/springfield.html">Springfield</a>: The state capital</li>
+                <li><a href="cities/chicago.html">Chicago</a>: The state's largest city</li>
+                <li><a href="cities/kirkland.html">Kirkland</a>: The author's residence</li>
+            </ol>
+            <ul>
+                <li>Population: 12,812,508</li>
+                <li>Year established: 1818</li>
+                <li>Region: Midwest</li>
+                <li>Classification: Mix of Urban and Rural areas</li>
+                <li>Average income: $65,030</li>
+            </ul>
+            <form id="form" onsubmit="return validateEmail(this)">
+                <h3>Stay in touch for all the latest Illinois news!</h3>
+                
+                <label for="first-name">First name:</label>
+                <input type="text" id="first-name" name="first-name" placeholder="First name">
+                <label for="last-name">Last name:</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Last name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="email@example.com" required>
+                <label for="confirm">Confirm email:</label>
+                <input type="email" id="confirm" name="confirm" placeholder="email@example.com" required>
+                <label for="questions">Questions:</label>
+                <textarea id="questions" name="questions" placeholder="Enter your questions here."></textarea>
+                <br>
+                <input type="submit">
+            </form>            
+            <cite class="citation">Wikipedia contributors. (2023). Illinois. Wikipedia.&nbsp;<a href="https://en.wikipedia.org/wiki/Illinois" target="_blank">https://en.wikipedia.org/wiki/Illinois</a></cite>
+        </section>
+        <aside>
+            <div>
+                <img id="illinois-old" src="images/illinois-old.jpg" alt="old illinois">
+                <br>
+                <table>
+                    <caption><h2>Important Dates</h2></caption>
+                    <tr>
+                        <th>Month</th>
+                        <th>Day</th>
+                        <th>Year</th>
+                        <th>Event</th>
+                    </tr>
+                    <tr>
+                        <td>December</td>
+                        <td>3</td>
+                        <td>1818</td>
+                        <td>Illinois becomes a state</td>
+                    </tr>
+                    <tr>
+                        <td>November</td>
+                        <td>21</td>
+                        <td>1967</td>
+                        <td>Fermilab established</td>
+                    </tr>
+                </table>
+            </div>
+        </aside>
+    </main>
+    <div class="lil-flag">
+        🏴󠁵󠁳󠁩󠁬󠁿  
+    </div>
+</body>
+</html>

@@ -1,0 +1,185 @@
+* {
+    font-family: system-ui, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 241, 241);
+}
+
+header {
+    box-shadow: 0 5px gray;
+    padding: 0 20rem;
+    height: 7rem;  
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    background-color: #B3DAF2;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 5rem;
+    float: right;
+    margin: 0;
+}
+
+header li {
+    list-style-type: ">";
+    font-size: 1.5rem;   
+    flex-wrap: nowrap;
+    font-weight: 500;    
+}
+
+ul {
+    column-gap: 2rem;
+    display: inline-flex;
+}
+
+#illinois-logo {
+    height: 100%;
+    max-height: 100%;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section {
+    box-shadow: 5px 5px gray;
+    width: 40%;  
+    background-color: white;
+}
+
+aside {
+    width: 20%;    
+}
+
+#illinois-img {
+    width: 100%;
+}
+
+cite {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h2 {
+    padding-left: 5%;   
+    padding-top: 5%;
+}
+
+section > p {
+    padding: 5%;
+}
+
+form  {   
+    box-shadow: 5px 5px gray;
+    width: 70%;
+    margin: 20px auto ;
+    display: grid;
+    justify-content: center;
+    padding-bottom: 1em; 
+    background-color: #fcde9c;   
+}
+
+a div {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+a {
+    height: 100%;
+    display: flex;
+}
+
+#illinois-old {
+    width: 100%;
+}
+
+div > p {
+    padding: 5%;
+}
+
+aside > div {
+    box-shadow: 5px 5px gray;
+    background-color: #fcde9c;
+}
+
+section ol, section ul {
+    display: inline-block;    
+    margin-top: 0;
+    width: 80%;
+    padding-left:10%;
+}
+
+.default-padding-bottom {
+    padding-bottom: 0;
+}
+
+table {
+    margin: 1% 2.5% 10%;
+    padding: 5%;
+    display: inline-block;
+    width: 95%;   
+    overflow-x: auto;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #B3DAF2;
+}
+
+td {
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
+caption {   
+    position: relative;
+    bottom: 15px;
+    
+}
+
+.citation {
+    padding: 5%;
+}
+
+.lil-flag {
+    position: absolute;
+    left: 98.5%;
+    top: 7%;
+}
+
+input[type=submit] {
+    width: 7em;
+    margin: auto;
+}
+
+label {
+    padding: 5px;
+}
+
+hr {
+    width: 90%;
+}
